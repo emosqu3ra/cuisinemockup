@@ -1,19 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+
 html, body {
     padding: 0;
     margin: 0;
 }
 
-/* HEADER */
+span {
+    color: orange;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Spartan', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}  
+
+/* HEADER AND NAV*/
 .background_img {
-    background-image: url(./imgs/cover.jpg);
+    background-image: url(./imgs/Cover.jpg);
     background-repeat: no-repeat;
     background-position: relative;
     background-size: cover;
+    width: 100%;
     height: 40rem;
 }
 
-/* SECTION */
+header nav *{
+    display: block;
+    float: left;
+    height: 100%;
+    padding: 0 10px;
+}
 
+nav ul {
+    float:right;
+}
+
+.text-over {
+    position: absolute;
+    text-align: left;
+    color: black;
+    margin-top: 140px;
+    margin-left: 50px;
+    width: 100%;
+  }
+
+  .btn{
+    margin: 0px;
+    background-color: orange;
+    color: white;
+    padding: 9px 10px;
+    width: 100px;
+    text-align: center;
+    border: 0px solid transparent;
+    font-size: 15px;
+    font-weight: 300;
+}  
+
+.form-control{
+    width: 30%;
+    padding: 9px 10px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 300;
+    color: #696666;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: inline-flex;
+}
+
+/* SECTION */
 .background_imgtwo {
     background-image: url(./imgs/section.jpg);
     background-repeat: no-repeat;
