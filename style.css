@@ -1,0 +1,25 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+.background_img {
+    background-image: url(./imgs/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+    height: 40rem;
+}
+
+/* SECTION */
+
+.background_imgtwo {
+    background-image: url(./imgs/section.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 40rem;
+}
+
+/* MEDIA QUERY **********************************/
