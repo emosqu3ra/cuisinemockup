@@ -32,7 +32,7 @@ a {
     background-position: relative;
     background-size: cover;
     width: 100%;
-    height: 40rem;
+    height: 45rem;
 }
 
 header nav *{
@@ -82,6 +82,11 @@ nav ul {
     display: inline-flex;
 }
 
+h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
 /* SECTION */
 .background_imgtwo {
     background-image: url(./imgs/section.jpg);
@@ -90,5 +95,31 @@ nav ul {
     background-size: cover;
     height: 40rem;
 }
+
+.aboutus {
+    text-align: left;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-top: 7%;
+}
+
+.menubtn {
+    margin: 0px;
+    background-color: orange;
+    color: white;
+    padding: 11px 10px;
+    width: 200px;
+    text-align: center;
+    border: 0px solid transparent;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
 
 /* MEDIA QUERY **********************************/
