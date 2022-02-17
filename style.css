@@ -23,6 +23,7 @@ a {
     text-decoration: none;
     color: black;
     margin-left: 20px;
+    font-family: 'Spartan', sans-serif;
 }  
 
 /* HEADER AND NAV*/
@@ -120,6 +121,70 @@ h2 {
     font-size: 50px;
 }
 
+/* SECTION 2 */
 
+.order, .book, .customer {
+    background-color: rgb(241, 246, 249);
+    padding: 7%;
+    text-align: center;
+}
 
+section li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+
+section img {
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+/* SECTION 4 */
+
+.background_imgthree {
+    background-image: url(./imgs/lastsection.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 60rem;
+}
+
+.book{
+    text-align: center;
+}
+
+.span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.spantwo {
+    color: black;
+    font-size: 20px;
+}
+
+.grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+/* SECTION 5 */
+
+.gridtwo {
+    text-align: center;
+}
 /* MEDIA QUERY **********************************/
