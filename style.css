@@ -186,4 +186,73 @@ h3 {
     text-align: center;
 }
 
+/* FOOTER */
+
+footer {
+    background: orange;
+    height: 5rem;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
 /* MEDIA QUERY**************************** */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    html, body {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    /* HEADER AND NAV */
+    .background_img {
+        background-position: right;
+    }
+
+    header nav ul{
+        background-color: rgba(255, 255, 255, .5);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header h1 {
+        margin-top: 20%;
+        margin-right: 20px;
+        font-size: 50px;
+        background-color: rgba(255, 255, 255, .5);
+        padding: 0;
+    }
+
+    /* ABOUT US SECTION */
+
+    .background_imgtwo {
+        background-position: center;
+    }
+
+    .aboutus {
+        width: 100%;
+        padding: 0;
+        padding: 20px 0;
+    }
+
+    .abouttext {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* ORDER ONLINE */
+
+    .order {
+        padding-top: 40px;
+    }
+
+    /* BOOK NOW SECTION */
+
+    .food {
+        width: 95%;
+        height: 15rem;
+    }
+
+}
