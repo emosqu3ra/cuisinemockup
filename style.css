@@ -30,7 +30,7 @@ a {
 .background_img {
     background-image: url(./imgs/Cover.jpg);
     background-repeat: no-repeat;
-    background-position: relative;
+    background-position: absolute;
     background-size: cover;
     height: 45rem;
 }
